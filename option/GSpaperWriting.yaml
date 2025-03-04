@@ -1,0 +1,36 @@
+target: ''
+exp_name: ''
+
+# 10 # 500 # 3000 #15000
+num: 15000
+
+# pi
+scale: '2pi'
+
+# 0.6 # 0.1 # 0.05 # 0.01 # 0.005 # 0.001
+dist: 0.01
+dist2: 0.03
+dist3: 0.05
+dist4: 0.07
+# Real、Simulate
+RealOrSimulate: 'Real'
+# Cell/USAF
+# Hela
+WhichData: "Hela"
+
+#128 #256 #512 #1024 #1920
+image_height: 1920
+image_width: 2560
+
+core_radius: 5 #5
+
+fi: 2
+isfi: False
+
+
+device: 'cuda'
+
+batch_size: 1
+
+epochs: 1
+
